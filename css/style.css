@@ -1,0 +1,322 @@
+.navbar{
+    background-color: hsl(294, 39%, 41%);
+}
+.nav-link{
+    color: white;
+}
+
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
+.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.btn1{
+    background-image: linear-gradient(to right,rgb(255, 13, 0),orangered);
+    color: white;
+}
+#img1{
+    
+    height: 200px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 50px;
+
+    @media (min-width: 1200px) {
+        margin-top: 60px;
+        width: 380px;
+        height: 290px;
+      }
+ 
+}
+.offcanvas-body {
+  
+  background-color: blue;
+
+  @media (min-width: 1200px) {
+    background-color: hsl(294, 39%, 41%) ;
+    }
+
+}
+
+
+#h1first,#h1second {
+    /* Extra small devices (phones, less than 768px) */
+    font-size: 20px;
+  
+    /* Small devices (tablets, 768px and up) */
+ 
+   
+  
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        text-align: left;
+        font-size: 30px;
+        margin-left: 130px;
+    }
+  }
+  #bgcolor{
+    background-color: hsl(294, 39%, 41%);
+
+  }
+#h5first{
+     /* Extra small devices (phones, less than 768px) */
+     font-size: 10px;
+  
+  
+   
+     /* Large devices (large desktops, 1200px and up) */
+     @media (min-width: 1200px) {
+       font-size: 20px;
+       text-align: left;
+       margin-left: 130px;
+      
+     }
+}
+#h6first{
+
+  display: none;
+ 
+   @media (min-width: 1200px) {
+     padding-right: 0;
+     font-size: 20px;
+     text-align: left;
+     display: inline-table;
+     margin-left: 40px;
+     background-color: hsl(294, 43%, 22%);
+   }
+
+}
+#h6forsecond{
+  padding-right: 0;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: -50px;
+ 
+ 
+ 
+
+  @media (min-width: 1200px) {
+   display: none;
+ 
+  }
+
+}
+.forreg{
+    background-color:white;
+    margin-top: -15px;
+    border: 0px;
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+    @media (min-width: 1200px) {
+      width: 480px;
+      margin-top: -15px;
+      margin-left: 60px;
+      height: 350px;
+      border-radius: 10px;
+  }
+}
+#h1second {
+    /* Extra small devices (phones, less than 768px) */
+    font-size: 15px;
+  
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+      font-size: 20px;
+     
+    }
+  
+
+  
+    /* Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      
+        border-top: 100px;
+        margin-left: -20px;
+      font-size: 20px;
+    }
+  }
+  #inputtext{
+    width: 90%;
+    height: 50px;
+    border-color: red;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .h6verification{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 35px;
+    @media (min-width: 1200px) {
+      font-size: 12px;
+      text-align: left;
+      margin-left: 25px;
+    }
+    
+  }
+  #btnreg{
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: red;
+    color: white;
+    @media (min-width: 1200px) {
+      width: 90%;
+      border-radius: 5px;
+      background-color: red;
+      margin-top: 10px;
+      margin-left: 25px;
+      color: white;
+    }
+
+  }
+  .For3crore{
+    width: 100%;
+    @media (min-width: 1200px) {
+      width:100%;
+      margin-left: 5px;
+  }
+  }
+  #h4forundercenterimage{
+    color: hsl(294, 50%, 37%) ;
+    margin-top: 20px;
+    font-size: 10px;
+    @media (min-width: 1200px) {
+      color: hsl(294, 50%, 37%) ;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  }
+  .whychoose{
+    font-size: 15px;
+    font-weight: bold;
+    @media(min-width:1200px){
+    font-size: 22px;
+    }
+  }
+  .imageincenter{
+    width:50px;
+    height: 45px;
+ 
+    @media(min-width: 1200px){
+      margin-top: 10px;
+      width:160px;
+      height: 130px;
+    }
+  }
+  .centerimages{
+    width: 100%;
+    height: 100px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-position: right;
+    background-repeat:no-repeat;
+    border-radius: 10px;
+    @media(min-width:1200px){
+    width: 360px;
+    height: 150px;
+   
+    margin-left: 80px;
+    border-radius: 10px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: right;
+    }
+  }
+  .centerimages2{
+    width: 100%;
+    height: 100px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-position: right;
+    background-repeat:no-repeat;
+    border-radius: 10px;
+    margin-top: 10px;
+    @media(min-width:1200px){
+      margin-top: 0px;
+    width: 360px;
+    height: 150px;
+  
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: right;
+    }
+  }
+  .centerimages3{
+    width: 100%;
+    height: 100px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-position: right;
+    background-repeat:no-repeat;
+    border-radius: 10px;
+    margin-top: 10px;
+    @media(min-width:1200px){
+      margin-top: 0px;
+    width: 360px;
+    height: 150px;
+
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: right;
+    }
+  }
+  .centerimages4 {
+    width: 100%;
+    height: 100px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-position: right;
+    background-repeat:no-repeat;
+    border-radius: 10px;
+    @media(min-width:1200px){
+    width: 390px;
+    height: 150px;
+   
+    margin-left: 200px;
+    border-radius: 10px;
+    background-color:hsl(294, 39%, 41%) ;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: right;
+    }
+
+  }
+  #container {
+    position: relative;
+}
+.spanuimg1{
+  width: 250px;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.spanuimg2{
+  margin-left: 10px;
+  width: 250px;
+  color: white;
+}
+.blockquote{
+  background-color: hsl(0, 0%, 61%);
+}
+.footer-content{
+  background-color: hsl(0, 0%, 61%);
+}
+.footer-content p{
+  font-size: 15px;
+}
